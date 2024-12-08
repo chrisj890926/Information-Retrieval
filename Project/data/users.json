@@ -1,0 +1,30 @@
+{
+    "testuser": {
+        "username": "testuser",
+        "email": "testuser@example.com",
+        "password_hash": "scrypt:32768:8:1$2wHxbPnN52FIzJUa$46bd1f556cf80e0001598b27555fb68f61593b9bb1a3d4dad17729cd0772d091f556120e6ae6108c175d586a003f68f249af3fce3258879543a64ee644ab7c68",
+        "created_at": "2024-11-09T22:37:39.018629",
+        "role": "user"
+    },
+    "testuser1": {
+        "username": "testuser1",
+        "email": "testuser1@example.com",
+        "password_hash": "scrypt:32768:8:1$cDZpejUJimtBX0RU$0c84ea6c66e094d501dfef84c4dcacf6d5a69557ac33c5636e6e191de0c37844f5f63e9b1aa8a708fe74dfe6ece95e2c5a31fe2b385ac98f351b0b082265d94d",
+        "created_at": "2024-11-09T22:38:04.304253",
+        "role": "user"
+    },
+    "testuser_admin": {
+        "username": "testuser_admin",
+        "email": "testuser_admin@example.com",
+        "password_hash": "scrypt:32768:8:1$2nBgTpgRAQptjLfh$0ea8c05da3a3150cf1dd87a76806a5ca35978dad6250a8c83db86cee583d4ec63c0149d25e09a73dd8d6cbead3378ab829920f1b383ca7aa181f869e3eb80e58",
+        "created_at": "2024-11-09T22:38:49.387158",
+        "role": "admin"
+    },
+    "testuser2": {
+        "username": "testuser2",
+        "email": "testuser2@example.com",
+        "password_hash": "scrypt:32768:8:1$VywJ7gBdMxzG1U5Y$31701558deebb6dcc0700db5141233c10230c17b772df92f30ede4f38d2c2a20396e1e4182511b7f434a0deb09c2921882cc3aa98803624ecb695a643ec43bb1",
+        "created_at": "2024-11-09T22:41:22.696603",
+        "role": "user"
+    }
+}
