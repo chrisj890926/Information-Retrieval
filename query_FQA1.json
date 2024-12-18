@@ -1,0 +1,34 @@
+{
+    "query": "羅珮綺老師的深度學習課"
+,
+    "query_keywords": {
+        "teacher": "羅珮綺",
+        "course_name": "深度學習"
+    },
+    "courses": [
+        {
+            "teacher": "羅珮綺",
+            "course_name": "深度學習",
+            "time": "二(上午)",
+            "department": "資管系",
+            "grade": 3,
+            "relevance_score": 5
+        },
+        {
+            "teacher": "康藝晃",
+            "course_name": "數據分析",
+            "time": "一(下午)",
+            "department": "資管系",
+            "grade": 4,
+            "relevance_score": 0
+        },
+        {
+            "teacher": "康藝晃",
+            "course_name": "機器學習基礎",
+            "time": "三(下午)",
+            "department": "資管系",
+            "grade": 4,
+            "relevance_score": 0
+        }
+    ]
+}

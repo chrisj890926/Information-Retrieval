@@ -1,0 +1,37 @@
+{
+    "query": "我要查詢康藝晃教授的課，禮拜一下午"
+,
+    "query_keywords": {
+        "teacher": "康藝晃",
+        "time": "一(下午)"
+    },
+    "courses": [
+        {
+            "teacher": "康藝晃",
+            "course_name": "數據分析",
+            "time": "一(下午)",
+            "department": "資管系",
+            "grade": 4,
+            "relevance_score": 3
+        },
+        {
+            "teacher": "康藝晃",
+            "course_name": "機器學習基礎",
+            "time": "三(下午)",
+            "department": "資管系",
+            "grade": 4,
+            "relevance_score": 2
+        },
+        {
+            "teacher": "羅珮綺",
+            "course_name": "深度學習",
+            "time": "二(上午)",
+            "department": "資管系",
+            "grade": 3,
+            "relevance_score": 0
+        }
+    ]
+}
+
+
+
