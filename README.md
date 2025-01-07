@@ -8,13 +8,13 @@
 4. [Usage](#usage)
 5. [API Endpoints](#api-endpoints)
 6. [File Descriptions](#file-descriptions)
-   - [app.py](#app-py)
-   - [chat_types.py](#chat-types-py)
-   - [courses_ranking_v5.py](#courses-ranking-v5-py)
-   - [prompt_v5.txt](#prompt-v5-txt)
-   - [query_generator.py](#query-generator-py)
-   - [response_generator.py](#response-generator-py)
-   - [requirements.txt](#requirements-txt)
+   - [app](#app)
+   - [chat_types](#chat-types)
+   - [courses_ranking](#courses-ranking)
+   - [prompt_v5](#prompt-v5)
+   - [query_generator](#query-generator)
+   - [response_generator](#response-generator)
+   - [requirements](#requirements)
 7. [Testing](#testing)
 8. [Environment Variables](#environment-variables)
 9. [Dependencies](#dependencies)
@@ -89,7 +89,7 @@ This project is a Flask-based backend system designed to assist with course reco
 ---
 
 ## File Descriptions
-
+### app
 ### app.py
 
 - **Description**:\
@@ -115,7 +115,7 @@ This project is a Flask-based backend system designed to assist with course reco
   ```
 
   The server will start on `http://127.0.0.1:5000/`.
-
+### chat_types
 ### chat\_types.py
 
 - **Description**:\
@@ -166,7 +166,7 @@ This project is a Flask-based backend system designed to assist with course reco
   request_dict = chat_request.to_dict()
   print(request_dict)
   ```
-
+### courses_ranking
 ### courses\_ranking\_v5.py
 
 - **Description**:\
@@ -208,7 +208,7 @@ This project is a Flask-based backend system designed to assist with course reco
 - **Highlights**:
   - Implements semantic matching using Sentence Transformers.
   - Logs detailed information to aid debugging and development.
-
+### prompt_v5
 ### prompt\_v5.txt
 
 - Template for generating structured course recommendations.
@@ -219,7 +219,7 @@ This project is a Flask-based backend system designed to assist with course reco
   Introduction: This course explores foundational AI theories and methods.
   Recommendation Reason: Ideal for students pursuing expertise in AI.
   ```
-
+### query_generator
 ### query\_generator.py
 
 - **Description**:\
@@ -256,7 +256,7 @@ This project is a Flask-based backend system designed to assist with course reco
   - Integrates Groq API to process user inputs and generate detailed course search parameters.
   - Handles fallback scenarios for missing API keys or invalid configurations.
   - Logs interactions for debugging and development.
-
+### response_generator
 ### response\_generator.py
 
 - Generates detailed responses for ranked courses.
@@ -265,7 +265,7 @@ This project is a Flask-based backend system designed to assist with course reco
   - `read_system_prompt_u`: Reads response generation prompt template.
   - `generate_response`: Uses Groq API to generate user-facing replies.
 - Supports extensive debugging and error handling.
-
+### requirements
 ### requirements.txt
 
 - Lists project dependencies:
