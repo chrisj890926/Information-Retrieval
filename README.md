@@ -115,7 +115,7 @@ This project is a Flask-based backend system designed to assist with course reco
   ```
 
   The server will start on `http://127.0.0.1:5000/`.
-### chat_types
+### chattypes
 ### chat\_types.py
 
 - **Description**:\
